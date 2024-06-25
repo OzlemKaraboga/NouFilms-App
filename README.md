@@ -3,10 +3,10 @@
 NouFilms is a movie application where users can search and select films based on the year of release and movie title. The app starts by presenting a variety of random films, allowing users to delve into movie details and pick selections according to specific years or titles.
 
 ## App Preview
-![NouFilms App Preview](./../NouFilmsApp.gif)
+![NouFilms App Preview](./public/img/NouFilmsApp.gif)
 
 ## App Demo
-Check out the live demo of NouFilms: [NouFilms Demo]()
+Check out the live demo of NouFilms: [NouFilms Demo](https://ozlemkaraboga.github.io/NouFilms-App/)
 
 ## Tools & Technologies
 - HTML
