@@ -2,7 +2,7 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Quitfit', cursive;
+  font-family: 'Poppins';
   position: relative;
 }
 
@@ -33,14 +33,18 @@ header p {
   justify-content: flex-end;
   background-color: #27317e;
   min-height: 60px;
+  
 }
 
 #container .search-bar #search-input,
 #container .search-bar #selectYear,
 #container .search-bar #search-button {
-  padding: 0.5rem;
+  padding: 0.6rem;
   margin: 1rem;
-  background-color: #ffffff;
+  font-weight: bold;
+  background-color: #d0c8c8;
+  border-radius: 10px;
+  border: 3px solid #041322;
 }
 
 #container .search-bar #search-input {
@@ -48,7 +52,7 @@ header p {
 }
 
 #container .search-bar #search-button {
-  width: 4%;
+  width: 5%;
   cursor: pointer;
   transition: all 0.3s;
 }
