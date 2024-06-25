@@ -171,12 +171,16 @@ footer {
     display: none; 
   }
   #movie-info-container {
-    width: 90%;
-    max-height: 80%;
-    border: 3px solid #79683b;
-  }    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+  #movie-info-container #movie-info-img {
+    margin: 1rem; 
+    width: 90%; 
+  }
 }
-
 
 
 /* Styles for mobile screens */
@@ -192,12 +196,13 @@ footer {
     display: none; 
   }
   #movie-info-container {
-    width: 95%;
-    max-height: 70%;
-    border: 2px solid #79683b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
   }
   #movie-info-container #movie-info-img {
-    margin: 0.5rem; /* Adjust image margin for smaller screens */
-    max-width: 100%; /* Ensure image width doesn't exceed container width */
+    margin: 1rem; 
+    width: 90%; 
   }
 }
