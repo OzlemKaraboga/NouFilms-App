@@ -8,5 +8,3 @@ export const fetchData = async (url) => {
   return response.json();
 };
 
-
-

@@ -21,9 +21,6 @@ export const createMovieCard = (movie) => {
   const seeMore = createElement('p', 'see-more');
   seeMore.textContent = 'See more';
 
-  const movieTitle = createElement('h1');
-  movieTitle.textContent = Title;
-
   movieCard.appendChild(movieImg);
   movieCard.appendChild(seeMore);
 

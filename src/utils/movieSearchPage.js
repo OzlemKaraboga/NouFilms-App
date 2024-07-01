@@ -15,10 +15,14 @@ export const getMovies = async (title = '', year = '') => {
       console.log('Movie not found');
       resultList.innerHTML = 'Movie not found';
       resultList.style.color = 'white';
+
     } else {
-      renderResult(Search);
-    }
-  } catch (error) {
+      Search.forEach((result) => {
+      const card = createMovieCard(result);
+      resultList.appendChild(card);
+     });
+    }; 
+    } catch (error) {
     console.log(error);
   }
 };
@@ -32,12 +36,3 @@ export const searchForMovies = () => {
   getMovies(searchValue, searchYearValue);
 };
 
-// Function to render search results on the page
-const renderResult = (movieResults) => {
-  const resultList = document.getElementById('results');
-  resultList.innerHTML = '';
-  movieResults.forEach((result) => {
-    const card = createMovieCard(result);
-    resultList.appendChild(card);
-  });
-};
